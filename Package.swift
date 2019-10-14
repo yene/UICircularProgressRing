@@ -3,9 +3,7 @@
 import PackageDescription
 
 let package = Package(name: "UICircularProgressRing",
-                      platforms: [.iOS(.v8)],
-                      products: [.library(name: "UICircularProgressRing",
-                                          targets: ["UICircularProgressRing"])],
-                      targets: [.target(name: "UICircularProgressRing",
-                                        path: "src")],
-                      swiftLanguageVersions: [.v5])
+platforms: [.iOS(.v8)],
+products: [.library(name: "UICircularProgressRing", targets: ["UICircularProgressRing"])],
+targets: [.target(name: "UICircularProgressRing", path: "src/UICircularProgressRing")],
+swiftLanguageVersions: [.v5])
